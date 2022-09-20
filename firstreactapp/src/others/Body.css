@@ -1,0 +1,63 @@
+.ig {
+    height: 210px;
+    width: 100%;
+    border: solid;
+}
+.d2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.d3 {
+    width: 260px;
+    margin: 10px;
+}
+.d4 {
+    width: 150px;
+    margin-left: 53px;
+    background-color: #ffa700;
+}
+.k:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.05);
+    background-color: #ffa700;
+}
+.k {
+    color: black;
+}
+.x {
+    color: black;
+}
+.x:hover {
+    transform: scale(1.05);
+    color: blue;
+}
+.d {
+    text-align: center;
+}
+.k1:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 4px #dcdde1;
+}
+.hover-zoomin a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}

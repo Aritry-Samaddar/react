@@ -1,0 +1,39 @@
+* { margin: 0; padding: 0; }
+.centerdiv {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.q {
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110%;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.p {
+    transition: all 0.3s linear;
+}
+.q:hover {
+    transform: scale(1.15);
+}
+.r {
+    transform: scale(1.10);
+    margin: 20%;
+}
+.fa-linkedin {
+    color: #0077B5;
+}
+.fa-instagram-square {
+    color: #e84393;
+}
+.fa-twitter {
+    color: #1da1f2;
+}
+.fa-facebook {
+    color: 	#4267B2;
+}

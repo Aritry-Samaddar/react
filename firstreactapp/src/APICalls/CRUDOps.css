@@ -1,0 +1,90 @@
+.k:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.05);
+}
+.k {
+    color: black;
+}
+.k1:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 4px #dcdde1;
+}
+.x p.d:hover {
+    color: blue;
+}
+.d {
+    text-align: center;
+}
+.d2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.d3 {
+    display: none;
+}
+.c1 {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.btn1 {
+    margin-top: 10px;
+    width: 10%;
+    height: 10%;
+    color: black;
+    background-color: violet;
+    margin-right: 10px;
+}
+.sticky1 {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+img {
+    width: 100%;
+}
+.c-h {
+    height: 100px;
+}
+.hover-zoomin a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgslider {
+    width: 100%;
+    Overflow-X: Hidden
+}
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+}
+.slick-next {
+    right: 3% !important;
+    z-index: 1;
+}
+.fd {
+    display: flex;
+    flex-direction: row;
+}
+.f:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.10);
+}

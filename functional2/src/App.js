@@ -54,7 +54,7 @@ import LoginComponent from './cookies and jwt/LoginComponent'
 import DashBoardComponent from './cookies and jwt/DashboardComponent'
 // import Signup from './MiniProject/Components/Signup'
 import Provider from './MiniProject/Provider'
-import Login from './MiniProject/Components/Login'
+// import Login from './MiniProject/Components/Login'
 import Admin from './MiniProject/Components/Admin'
 import User from './MiniProject/Components/User'
 import Signup from './MiniProject/Components/Signup'
@@ -68,6 +68,7 @@ import Side from './AllNew/Side'
 import StarRating from './AllNew/StarRating'
 import Dropdown from './AllNew/Dropdown'
 import Password from './AllNew/Password'
+import Login from './AllNew/Login'
 function App() {
     return(
         <div>
@@ -219,6 +220,7 @@ function App() {
         <StarRating></StarRating>
         <Dropdown></Dropdown>
         <Password></Password>
+        <Login></Login>
         </div>
     )
 }

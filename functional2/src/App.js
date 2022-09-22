@@ -64,6 +64,9 @@ import Course from './MiniProject/Components/Course'
 import Fav from './MiniProject/Components/Fav'
 // import Login from './RTK_jwt_Tokens/Components/Login'
 // import DashBoard from './RTK_jwt_Tokens/Components/Dashboard'
+import Side from './AllNew/Side'
+import StarRating from './AllNew/StarRating'
+import Dropdown from './AllNew/Dropdown'
 function App() {
     return(
         <div>
@@ -198,7 +201,7 @@ function App() {
         </Routes>
         </BrowserRouter> */}
 
-        <BrowserRouter>
+        {/* <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Login></Login>}></Route>
                 <Route path='signup' element={<Signup></Signup>}></Route>
@@ -209,7 +212,11 @@ function App() {
                 <Route path='/user_courses' element={<Course></Course>}></Route>
                 <Route path='/favourite_list' element={<Fav></Fav>}></Route>
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
+
+        <Side></Side>
+        <StarRating></StarRating>
+        <Dropdown></Dropdown>
         </div>
     )
 }

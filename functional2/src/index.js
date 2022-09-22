@@ -37,8 +37,8 @@ import LoginReducer from './ReduxTookitConfigs/Reducers/LoginReducer';
 import Store from './MiniProject/Store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    // <App />
-    <Provider store={Store}>
-        <App/>
-    </Provider>
+    <App />
+    // <Provider store={Store}>
+    //     <App/>
+    // </Provider>
 );

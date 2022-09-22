@@ -67,6 +67,7 @@ import Fav from './MiniProject/Components/Fav'
 import Side from './AllNew/Side'
 import StarRating from './AllNew/StarRating'
 import Dropdown from './AllNew/Dropdown'
+import Password from './AllNew/Password'
 function App() {
     return(
         <div>
@@ -217,6 +218,7 @@ function App() {
         <Side></Side>
         <StarRating></StarRating>
         <Dropdown></Dropdown>
+        <Password></Password>
         </div>
     )
 }

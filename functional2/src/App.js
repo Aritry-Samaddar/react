@@ -35,7 +35,7 @@ import UpdateUsers from "./CRUDUsingToolkitLiveServer/CRUDComps/UpdateUsers"
 import SampleRefComponent from "./UsingRef/SampleRefComponent"
 import ParentForm from "./UsingRef/ParentForm"
 import FormsInput from "./FormElements/FormsInput"
-import Navbar from "./AddToCart/Nav/Navbar"
+// import Navbar from "./AddToCart/Nav/Navbar"
 // import Home from './AddToCart/Components/Home'
 import Electronics from './AddToCart/Components/Electronics'
 import Cloths from './AddToCart/Components/Cloths'
@@ -69,6 +69,7 @@ import StarRating from './AllNew/StarRating'
 import Dropdown from './AllNew/Dropdown'
 import Password from './AllNew/Password'
 import Login from './AllNew/Login'
+import Navbar from './AllNew/Navbar'
 function App() {
     return(
         <div>
@@ -216,6 +217,7 @@ function App() {
             </Routes>
         </BrowserRouter> */}
 
+        <Navbar></Navbar>
         <Side></Side>
         <StarRating></StarRating>
         <Dropdown></Dropdown>

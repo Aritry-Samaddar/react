@@ -6,7 +6,7 @@ export default function Sidebar({ items }) {
     setFlag(title);
   };
   return (
-    <div>
+    <div style={{marginTop: '100px'}}>
         {console.log("flag",flag)}
       {items.map((item) => (
         <ul>

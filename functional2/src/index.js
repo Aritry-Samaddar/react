@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import App from './App'
-import reducer from './Redux/Reducers'
+// import reducer from './Redux/Reducers'
 import { configureStore } from '@reduxjs/toolkit';
-import LoginReducer from './ReduxTookitConfigs/Reducers/LoginReducer';
+// import LoginReducer from './ReduxTookitConfigs/Reducers/LoginReducer';
 // import UserSlice, { fetchUsers } from './CRUDUsingToolkit/UserSlice';
 // const store=createStore(reducer)
 // import Store from './ReduxThunk/Store/Store';
@@ -34,11 +34,13 @@ import LoginReducer from './ReduxTookitConfigs/Reducers/LoginReducer';
 // import Store from './CRUDUsingMongoDB/Store';
 // Store.dispatch(get())
 
-import Store from './MiniProject/Store';
+// import Store from './MiniProject/Store';
+
+import Store from './AllNew/Task3/Store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
-    // <Provider store={Store}>
-    //     <App/>
-    // </Provider>
+    // <App />
+    <Provider store={Store}>
+        <App/>
+    </Provider>
 );

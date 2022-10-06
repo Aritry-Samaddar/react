@@ -70,6 +70,10 @@ import Dropdown from './AllNew/Dropdown'
 import Password from './AllNew/Password'
 import Login from './AllNew/Login'
 import Navbar from './AllNew/Navbar'
+import Test1 from './AllNew/test1'
+import UseMemoTest from './AllNew/useMemoTest'
+import TaskCreator from './AllNew/Task3/TaskCreator'
+import TaskList from './AllNew/Task3/TaskList'
 function App() {
     return(
         <div>
@@ -217,12 +221,19 @@ function App() {
             </Routes>
         </BrowserRouter> */}
 
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar>
         <Side></Side>
         <StarRating></StarRating>
         <Dropdown></Dropdown>
         <Password></Password>
-        <Login></Login>
+        <Login></Login> */}
+
+        {/* <Test1></Test1> */}
+
+        {/* <UseMemoTest></UseMemoTest> */}
+
+        <TaskCreator></TaskCreator>
+        <TaskList></TaskList>
         </div>
     )
 }

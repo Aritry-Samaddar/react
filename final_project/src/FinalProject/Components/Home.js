@@ -16,6 +16,7 @@ const Home=()=>{
         }
     };
     const submitCSV=()=>{
+        console.log(arr);
         if(arr.length!==0) dispatch(createProducts(arr))
         else return alert("Nothing chosen to upload!")
     }
